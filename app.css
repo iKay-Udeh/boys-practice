@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 20px;
+    font-family: Open Sans, monospace;
+    list-style: none;
+    }
+
+.items {
+    display: flex;
+    list-style: none;
+    white-space: nowrap;
+}
+.nav li{
+    padding: 10px;
+    width: 65px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
