@@ -1,12 +1,16 @@
+body {
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+    font-family: Open Sans, monospace;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .logo {
     padding-left: 20px;
-    font-family: Open Sans, monospace;
-    list-style: none;
     }
 
 .items {
@@ -14,9 +18,16 @@
     list-style: none;
     white-space: nowrap;
 }
+
 .nav li{
-    padding: 10px;
-    width: 65px;
+    padding: 15px;
+    width: 100%;
+}
+
+.nav li:hover {
+    color: blue;
+    width: 100%;
+    text-decoration: underline;
 }
 
 a {
@@ -24,10 +35,61 @@ a {
     color: black;
 }
 
-a:hover {
-    color: green;
-}
-
 a:active {
     color: red;
+}
+
+.img {
+    width: 150px;
+    margin-top: 15px;
+}
+
+.shift {
+    margin-left: 10px;
+}
+
+.container {
+    background: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured.jpg);
+    height: 600px;
+}
+
+.section {
+    text-align: center;
+    width: auto;
+    height: 515px;
+    border: 1px red solid;
+    justify-content: center;
+}
+.web {
+   font-weight: bolder;
+   font-size: 100px;
+   color: white;
+   margin: auto;
+   width: auto;
+   text-align: center;
+   font-family: Lobster , monospace;
+}
+.form {
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+}
+.class {
+color: white ;
+ 
+
+}
+
+.rounded-corners {
+    margin-bottom: 10px;
+    width: 60%;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(24, 26, 24);
 }

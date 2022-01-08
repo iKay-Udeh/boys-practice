@@ -6,20 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
     <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:wght@700&family=Open+Sans:wght@500;600&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav">
-        <ul>
-            <li class="logo"><a href='#'>Ehitale</a></li>
-        </ul>
-        <ul class="items">
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>Blog</a></li>git
-            <li><a href='#'>Sign in</a></li>
-            <li><a href='#'>Sign up</a></li>
-        </ul>
-    </nav>
-    <footer>West</footer>
+    <div class="container">
+        <nav class="nav">
+            <div class="shift">
+                <a href="#"><img class="img" src="logo.png" alt="Image of Logo"></a>
+            </div>
+            <ul class="items">
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>Blog</a></li>
+                <li><a href='#'>About us</a></li>
+                <li><a href='#'>Contact us</a></li>
+            </ul>
+        </nav>
+        <section class="section">
+            <div class="body"> 
+                <!-- Na here you go work on. Create a new css class for this div element. Enlarge that text and make am dey the center of the div. You go need use margin auto-->
+                <h2 class="web">
+                    Food for all
+                </h2>
+                <h3 class="class">This is the best platform for all your local and internatioal dishes</h3>
+            </div>
+        </section>
+    </div>
+
+    <div class="form">
+        <form>
+            <form for="fn">Fullname<label><br>
+            <input class="rounded-corners" type="fullname" name="fullname" placeholder="Fullname" id="fn" required><br>
+            <form for="un">Username<label><br>
+            <input class="rounded-corners" type="username" name="username" placeholder="Username" id="un" required><br>
+            <form for="em">Email<label><br>
+            <input class="rounded-corners" type="email" name="email" placeholder="Email" id="em" required><br>
+            <form for="pn">Password<label><br>
+            <input class="rounded-corners" type="phonenumber" name="phonenumber" placeholder="Phonenumber" id="pn" required>
+            <p><strong>Select a meal:</strong></p>
+            <input type="radio" name="food" value="Jollof Rice" id="option-1">
+            <label for="option-1">Jollof Rice</label>
+            <input type="radio" name="food" value="Fried Rice" id="option-2">
+            <label for="option-2">Fried Rice</label>
+            <input type="radio" name="food" value="Whiterice & Stew" id="option-3">
+            <label for="option-3">Whiterice & Stew</label>
+            <input type="radio" name="food" value="Eba & Egusi" id="option-4">
+            <label for="option-4">Eba & Egusi</label>
+        </form>
+    </div>
+    <footer>
+        <div>
+            
+        </div>
+    </footer>
 </body>
 </html>
